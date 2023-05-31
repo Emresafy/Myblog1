@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kalam:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Aladin', cursive;
+    background-color: antiquewhite;
+}
+
+header{
+    border-bottom: 2px solid;
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    background: #fff;
+}
+
+nav{
+    /* border: 2px solid blue; */
+    padding: .6rem 0;
+    width: 100%;
+    margin: auto;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav-items{
+    /* border: 2px solid red; */
+    margin-top: 5px;
+}
+
+.nav-items a{
+    color: #000;
+    text-decoration: none;
+    padding-left: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+button{
+    padding: 0 2rem;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    background-color: rgb(15, 22, 230);
+}
+
+.container{
+    width: 100%;
+    margin: 2rem auto;
+    max-width: 900px;
+    margin-top: 3rem;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.sec{
+    border: 2px inset #000;
+    margin-top: 3.5rem;
+    padding: .5rem;
+}
+
+.post{
+    text-align: left;
+    font-size: 1rem;
+}
+
+.info{
+border: 2px solid #000;
+width: 100px;
+display: flex;
+justify-content: end;
+float: right;
+margin: .7rem 0;
+}
+
+.info img{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+
+.inner_info h3, h4{
+font-weight: 900;
+font-size: 1rem;
+}
+
+footer{
+    border-top: 2px solid;
+    margin-top: 7rem;
+}
+.foot{
+    /* border: 2px solid blue; */
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.foot h1{
+    font-family: 'Dancing Script', cursive ;
+}
+
+.footBox ul li{
+    list-style: none;
+    margin-top: 10px;
+}
